@@ -112,3 +112,11 @@ a:link {
 	margin: 0 auto;
 	position:relative;
 }
+.masthead 
+{
+    width: 400;
+    height: 75px;
+    background-image: url(masthead.gif);
+    text-indent: -9999px;
+    margin: 75px auto 50px;
+}
