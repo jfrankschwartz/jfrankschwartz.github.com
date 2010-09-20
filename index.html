@@ -10,15 +10,38 @@
         .nav ul { margin-left: 0px; }
         </style>
         <![endif]-->
+        <script src="jquery.js" type="text/javascript"></script>
+        <script>
+        $(document).ready(function() {
+            $("#nav-about a").click(function() {
+                $(".nav li").removeClass("highlight");
+                $("#nav-about").addClass("highlight");
+                $(".content div").hide();
+                $("#content-about").show();
+            });
+            $("#nav-massage a").click(function() {
+                $(".nav li").removeClass("highlight");
+                $("#nav-massage").addClass("highlight");
+                $(".content div").hide();
+                $("#content-massage").show();
+            });
+            $("#nav-ratesterms a").click(function() {
+                $(".nav li").removeClass("highlight");
+                $("#nav-ratesterms").addClass("highlight");
+                $(".content div").hide();
+                $("#content-ratesterms").show();
+            });
+        });
+        </script>
     </head>
     <body>
         <div class="container">
             <h1 class="masthead">J. Frank Schwartz Massage Therapy</h1>
             <div class="nav">
                 <ul>
-                    <li class="about">About</li>
-                    <li class="massage highlight">Massage</li>
-                    <li class="ratesterms">Rates &amp; Terms</li>
+                    <li id="nav-about" class="highlight"><a href="#About">About</a></li>
+                    <li id="nav-massage"><a href="#Massage">Massage</a></li>
+                    <li id="nav-ratesterms"><a href="#Rates">Rates &amp; Terms</a></li>
                 </ul>
             </div>
             <div class="main">
@@ -33,15 +56,24 @@
                     <p>jfrankschwartz@gmail.com</p>
                 </div>
                 <div class="content">
-                    <p>My name is Frank, and after a long path I have arrived at bodywork as my profession.</p>
+                    <div id="content-about">
+                        
+                        <p>My name is Frank, and after a long path I have arrived at bodywork as my profession.</p>
 
-                    <p>I enrolled at East-West College of the Healing Arts (www.eastwestcollege.com) in January of 2009 and graduated from their 1002 Hour program (the most in-depth training they offer) in June of 2010 with a 3.87 GPA.</p>
+                        <p>I enrolled at East-West College of the Healing Arts (www.eastwestcollege.com) in January of 2009 and graduated from their 1002 Hour program (the most in-depth training they offer) in June of 2010 with a 3.87 GPA.</p>
 
-                    <p>Under their auspices I studied modalities Cranio-Sacral &amp; Myofascial, Deep Tissue, Swedish, Thai, Trigger Point and Tui-Na.  My instructors included Cyr Foote, Jon Hart, James Spake, Allie Longstreth-Lurie, Alex Susbauer and Uma Tupper, all accomplished therapists in their respective disciplines.</p>
+                        <p>Under their auspices I studied modalities Cranio-Sacral &amp; Myofascial, Deep Tissue, Swedish, Thai, Trigger Point and Tui-Na.  My instructors included Cyr Foote, Jon Hart, James Spake, Allie Longstreth-Lurie, Alex Susbauer and Uma Tupper, all accomplished therapists in their respective disciplines.</p>
 
-                    <p>I am furthering my education in Thai massage under Allie Longstretch-Lurie this year with a Level II class, and am planning to travel to Thailand in 2011 with her for advanced Northern-style training.</p> 
+                        <p>I am furthering my education in Thai massage under Allie Longstretch-Lurie this year with a Level II class, and am planning to travel to Thailand in 2011 with her for advanced Northern-style training.</p> 
 
-                    <p>My approach to bodywork is holistic, regarding the body-mind as a whole unit and addressing each person where they are at that day. I have referrals for practitioners in other disciplines as well.</p>
+                        <p>My approach to bodywork is holistic, regarding the body-mind as a whole unit and addressing each person where they are at that day. I have referrals for practitioners in other disciplines as well.</p>
+                    </div>
+                    <div id="content-massage" style="display:none">
+                        <p>content of massage page</p>
+                    </div>
+                    <div id="content-ratesterms" style="display:none">
+                        <p>content of rates &amp; terms</p>
+                    </div>
                 </div>
             </div>
         </div>
