@@ -8,7 +8,7 @@ body {
 .nav {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	height: 75px;
+	
 	width: 100%;
 }
 .nav ul {
@@ -22,11 +22,8 @@ body {
 	margin: 0 0 0 -4px;
 	text-align: center;
 	display: inline-block;
-	padding: 26px 0 0;
+	padding: 25px 0 23px;
     text-transform: uppercase;
-}
-.nav li {
-	height: 50px;
 }
 .about {
 	width: 150px;
@@ -70,17 +67,17 @@ a:link {
 	text-align: center;
 	font-family: Helvetica "sans-serif";
 }
+.main {
+	width: 500px;
+	margin: -20px auto 0;
+	position:relative;
+}
 .sidebar {
 	width: 200px;
 	text-align:right;
 	position:absolute;
 	left: -250px;
     top: -16px;
-}
-.main {
-	width: 500px;
-	margin: -20px auto 0;
-	position:relative;
 }
 .content {
 	width: 500px;
@@ -89,7 +86,7 @@ a:link {
 }
 .masthead 
 {
-    width: 400;
+    width: 400px;
     height: 75px;
     background-image: url(masthead.gif);
     text-indent: -9999px;
