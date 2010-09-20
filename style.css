@@ -1,51 +1,54 @@
 body {
-	font: 14px Helvetica sans-serif;
-	background: white;
-	margin: 0;
+	font-family: Helvetica, sans-serif;
+    margin: 0;
 	padding: 0;
 	color: #000;
-	font-family: Helvetica, sans-serif;
+    text-align: center;
 }
-.nav li {
-	list-style:none;
-	font: 22px Helvetica, sans-serif;
-	margin: 0 auto;
-	text-align: center;
-    font-weight: bold;
-	display: inline-block;	
-	padding-left: 0px;
-	padding-top: 25px;
-    text-transform: uppercase;
+.nav {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 75px;
+	width: 100%;
 }
 .nav ul {
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
 }
-
-.about {
+.nav li {
+	list-style-type: none;
+	font-size: 22px;
+    font-weight: bold;
+	margin: 0 0 0 -4px;
+	text-align: center;
+	display: inline-block;
+	padding: 26px 0 0;
+    text-transform: uppercase;
+}
+.nav li {
 	height: 50px;
+}
+.about {
 	width: 150px;
 }
 .massage {
-    height: 50px;
     width: 175px;
 }
 .ratesterms {
-    height: 50px;
     width: 225px;
 }
-.highlight {
+.highlight, .nav li:hover {
     background: black;
     color: white;
 }
-
 p {
-	font-size:14px;
-	font-family: Helvetica, Arial, "sans serif";
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
 }
 h1 {
-	font-size:18px;
-	font-family: Helvetica, Arial, "sans serif";
-	font-weight:normal;
+	font-size: 18px;
+	font-family: Helvetica, sans–serif;
+	font-weight: normal;
 }
 a img {
 	border: none;
@@ -67,46 +70,22 @@ a:link {
 	text-align: center;
 	font-family: Helvetica "sans-serif";
 }
-.nav {
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-	height: 75px;
-	width: 100%;
-	text-align:center;
-	font-family: Helvetica "sans-serif";
-}
-.sidebar1 {
+.sidebar {
 	width: 200px;
-	padding-right: 50px;
-	padding-top:10px;
 	text-align:right;
 	position:absolute;
 	left: -250px;
+    top: -16px;
+}
+.main {
+	width: 500px;
+	margin: -20px auto 0;
+	position:relative;
 }
 .content {
-	padding: 10px 0;
-	width: 505px;
-	float: left;
-}
-.fltrt {  
-	float: right;
-	margin-left: 8px;
-}
-.fltlft {
-	float: left;
-	margin-right: 8px;
-}
-.clearfloat { 
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
-}
-.bodycontainer {
-	padding: 10px 0;
-	width: 505px;
-	margin: 0 auto;
-	position:relative;
+	width: 500px;
+    text-align: justify;
+    margin-top: 50px;
 }
 .masthead 
 {
