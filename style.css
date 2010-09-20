@@ -4,44 +4,40 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	font-family: Helvetica "sans-serif";
-}
-ul.a {
-	list-style:none;
-	font: 22px Helvetica, sans serif;
-	height:50px;
-	width:150px;
-	background: black;
-	margin: 0 auto;
-	font-weight:bold;
-	text-align:center;
-	color: white;
 	font-family: Helvetica, sans-serif;
-	display:inline-block;	
-	padding-left:0px;
-	padding-top:25px;
-	vertical-align:midddle;
 }
-ul.b {
+.nav li {
 	list-style:none;
-	font: 22px Helvetica, sans serif;
-	height:50px;
-	width:220px;
-	background: white;
+	font: 22px Helvetica, sans-serif;
 	margin: 0 auto;
-	font-weight:bold;
-	text-align:center;
-	color: black;
-	font-family: Helvetica, sans-serif;
-	display:inline-block;	
-	padding-left:0px;
-	padding-top:25px;
-	vertical-align:midddle;
+	text-align: center;
+    font-weight: bold;
+	display: inline-block;	
+	padding-left: 0px;
+	padding-top: 25px;
+    text-transform: uppercase;
 }
-li {
-	vertical-align:middle;
-	font-family: Helvetica, "sans serif";
+.nav ul {
+    margin: 0;
 }
+
+.about {
+	height: 50px;
+	width: 150px;
+}
+.massage {
+    height: 50px;
+    width: 175px;
+}
+.ratesterms {
+    height: 50px;
+    width: 225px;
+}
+.highlight {
+    background: black;
+    color: white;
+}
+
 p {
 	font-size:14px;
 	font-family: Helvetica, Arial, "sans serif";
