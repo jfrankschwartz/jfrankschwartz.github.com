@@ -95,3 +95,14 @@ a img {
     text-indent: -9999px;
     margin: 75px auto 50px;
 }
+.picwrapper
+{
+    text-align:center;
+}
+.gallery_photo img
+{
+    padding: 1px;
+    border: 1px solid black;
+    margin: 5px;
+    
+}
