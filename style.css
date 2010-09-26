@@ -106,3 +106,15 @@ a img {
     margin: 5px;
     
 }
+.footer
+{
+    margin: 20px;
+    font-size: 12px;
+    font-face: Helvetica sans-serif;
+    color: #aaa;
+}
+.footer a:visited,
+.footer a:link
+{
+    color: #aaa;
+}
