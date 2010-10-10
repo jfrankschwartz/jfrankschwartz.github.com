@@ -87,6 +87,9 @@ a img {
     text-align: justify;
     margin-top: 50px;
 }
+.content a {
+    color: black;
+}
 .masthead 
 {
     width: 400px;
