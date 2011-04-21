@@ -37,7 +37,12 @@
                 $(".content > div").hide();
                 $("#content-ratesterms").show();
             });
-
+            $("#nav-links a").click(function() {
+                $(".nav li").removeClass("highlight");
+                $("#nav-links").addClass("highlight");
+                $(".content > div").hide();
+                $("#content-links").show();
+            });
             $("a.gallery_photo").fancybox();
         });
         </script>
@@ -63,6 +68,7 @@
                     <li id="nav-about" class="highlight"><a href="#About">About</a></li>
                     <li id="nav-massage"><a href="#Massage">Massage</a></li>
                     <li id="nav-ratesterms"><a href="#Rates">Rates &amp; Terms</a></li>
+                    <li id="nav-links"><a href="#Links">Links</a></li>
                 </ul>
             </div>
             <div class="main">
@@ -84,36 +90,44 @@
                         
                         <p>Hello!</p>
                         
-                        <p>My name is Frank, and after a long path I have arrived at bodywork as my profession and passion!  
-                        <p>My approach to bodywork is holistic, regarding the body-mind as a whole unit and addressing each person where they are at that day. My work will benefit you whether you are in an office or are an athlete! I also have referrals for practitioners of other disciplines for complementary care.</p>
+                        <p>My name is Frank and I am an LMT in NE Portland. Doing bodywork is my profession and passion! Seeing someone leave feeling better than when they came in makes my job very rewarding. My approach to bodywork is holistic, regarding the body-mind as a whole unit and addressing each person where they are at that day.  My work will benefit you whether you work in an office or are an athlete. You will have my undivided attention!</p>
+                        <p>After being encouraged by some friends who were massage therapists, I enrolled at East-West College of the Healing Arts locally. A year and a half later I graduated, having completed 1002 hours of training. During my time there I studied a wide variety of modalities:</p>
+                        <ul>
+                            <li>Cranio-Sacral</li>
+                            <li>Deep Tissue</li>
+                            <li>Myofascial</li>
+                            <li>Sports Massage</li>
+                            <li>Swedish</li>
+                            <li>Thai</li>
+                            <li>Trigger Point</li>
+                            <li>Tui-Na</li>
+                        </ul>
                         
-                        <p>My studio is located on the Woodlawn Triangle across the street from Firehouse restaurant. It is comfortable, spacious and quiet and there is usually ample street parking. I have no set hours, so please call or email to inquire about an appointment. Same day appointment inquiries are welcome. I hope to hear from you!</p>
-
-                        <p>My education was at <a href="http://eastwestcollege.com">East-West College of the Healing Arts</a>. I graduated from their 1002 Hour program (the most in-depth training offered) with a 3.87 GPA.  
-
-                        <p>Under their auspice I studied modalities Cranio-Sacral &amp; Myofascial, Deep Tissue, Sports Massage, Swedish, Thai, Trigger Point and Tui-Na. My instructors included Cyr Foote, Jon Hart, Lisa VanAlstine, James Spake, Allie Longstreth-Lurie, Alex Susbauer and Uma Tupper, all accomplished therapists in their respective disciplines.</p> 
-
-                        <p>I continued my education in Thai massage under Allie Longstretch-Lurie this year with a Level II class, and am planning to travel to Thailand in 2011 for advanced Northern-style training.</p>
+                        <p>The human body is amazing and I am fascinated by all the approaches to freeing it! As I have experienced jobs and activities from construction to desk, waterskiing to weightlifting, my style of massage is likewise varied depending on individual needs.</p>
                         
-                    <div class="picwrapper">
-                        <a class="gallery_photo" rel="group1" href="studiofront_big.jpg"><img src="studiofront_small.jpg" alt=""/></a>
-                        <a class="gallery_photo" rel="group1" href="studiocouch_big.jpg"><img src="studiocouch_small.jpg" alt=""/></a> 	
-                        <a class="gallery_photo" rel="group1" href="studio_big.jpg"><img src="studio_small.jpg" alt=""/></a>
-                        <a class="gallery_photo" rel="group1" href="frankinstudio_big.jpg"><img src="frankinstudio_small.jpg" alt=""/></a> 
-                    </div>
+                        <p>I have referrals for practitioners of other disciplines as well for complementary care.</p>
+                        
+                        <p>My studio is located on the Woodlawn Triangle across the street from Firehouse restaurant.  It is comfortable, spacious and quiet and there is usually ample street parking.  I have no set hours, so please call or email to inquire about an appointment.  Same day appointment inquiries are welcome. I hope to hear from you!</p>
+                        
+                        <div class="picwrapper">
+                            <a class="gallery_photo" rel="group1" href="studiofront_big.jpg"><img src="studiofront_small.jpg" alt=""/></a>
+                            <a class="gallery_photo" rel="group1" href="studiocouch_big.jpg"><img src="studiocouch_small.jpg" alt=""/></a> 	
+                            <a class="gallery_photo" rel="group1" href="studio_big.jpg"><img src="studio_small.jpg" alt=""/></a>
+                            <a class="gallery_photo" rel="group1" href="frankinstudio_big.jpg"><img src="frankinstudio_small.jpg" alt=""/></a> 
                         </div>
+                    </div>
                     <div id="content-massage" style="display:none">
 
                         <h3>Relaxation</h3>
-                        <p>I provide a safe space for relaxation massage. My table is heated to keep you cozy and melt stress away while I soothe your body!</p>
+                        <p>I provide a safe space for relaxation massage. Often relaxing the mind is the most powerful way to relax the body. My table is heated to keep you cozy and warm while the stress melts away!</p>
                         
                         <h3>Corrective</h3>
-                        <p>I also practice structural balancing work, incorporating all of the modalities I have studied. This is to help mitigate or reverse the effects of repetitive patterns that cause daily pain or stiffness!</p>
+                        <p>I practice structural balancing work, incorporating all of the modalities I have studied. This is to help mitigate or reverse the effects of repetitive patterns that cause pain or limited ability.</p>
                         <h3>Thai</h3>
-                        <p>Thai massage contains lots of stretching and leaves one feeling energized and invigorated. I can think of nothing better to get your chi flowing!</p>
+                        <p>Thai massage is sometimes described as "passive yoga", involving lots of stretching and compression. My athletic clients love this style. I can think of nothing better to get your chi flowing!</p>
                         
                         <h3>Couples</h3>
-                        <p>I also provide tandem couples' massage. With enough notice, I can offer myself plus another male or female LMT to massage you and your partner at the same time! Or if you prefer, you can each relax on your own tables while I take turns working on both of you.</p>
+                        <p>I also provide tandem couples' massage. With enough notice, I can offer myself plus another male or female LMT to massage you and your partner at the same time. Or if you prefer, you can each relax on your own tables while I take turns working on each of you. Makes for a perfect date!</p>
                         
                         <div class="picwrapper">
                          <a class="gallery_photo" rel="group2" href="beach1_big.jpg"><img src="beach1_small.jpg" alt=""/></a> 	
@@ -122,12 +136,11 @@
                         </div>
                     </div>
                     <div id="content-ratesterms" style="display:none">
-                        <p>Rates are $60/60 minutes and $90/90 minutes.  
+                        <p>Rates are $60/60 minutes, $90/90 minutes and $120/120 minutes.</p>
 
                         <p>If you are interested in a time increment other than that, feel free to ask and we can discuss it.</p>
-                        <p>If you are a service industry worker (barkeep/barista/dancer/kitchen staff/wait staff et c.), ask for a discount!</p>
                         
-                        <p>Currently I am unable to offer insurance billing, and can only accept cash or cheques.</p> 
+                        <p>Currently I am unable to offer insurance billing, and can only accept cash or cheques.</p>
 
                         <p>Barters for goods or services will be considered on a case-by-case basis.</p>
 
@@ -140,6 +153,40 @@
                         <p>No sexual services are offered or implied.</p>
                         
                         <p>Thanks for reading!</p>
+                    </div>
+                    <div id="content-links" style="display:none">
+                        <table width="100%">
+                            <tr>
+                                <td width="66%">
+                                    <p>Visit my friends:<br>
+                                    <a href="http://baskmassage.blogspot.com/">Matia Divitt, LMT</a><br>
+                                    <a href="http://lesleysario.com/">Lesley Sario, LMT</a><br>
+                                    <a href="http://eastwestcollege.com">East West College of the Healing Arts</a><br>
+                                    <a href="http://www.northportlandyoga.com/NPY/Welcome.html">North Portland Yoga</a><br>
+                                    <a href="http://www.wingchun.org/txt/misc/wcso.html">Wing Chun Society of Oregon</a><br>
+
+                                    <a href="http://upcyclespdx.blogspot.com/">Up Cycles</a><br>
+                                    <a href="http://goodneighborpizzeria.com/">Good Neighbor Pizzeria</a><br>
+                                    <a href="http://www.firehousepdx.com/">Firehouse Restaurant</a><br>
+                                    <a href="http://www.woodlawncoffee.com/">Woodlawn Coffee &amp; Pastry</a><br>
+                                    <a href="http://www.breaksidebrews.com/">Breakside Brewery</a><br>
+
+                                    <a href="http://lilikoiportland.blogspot.com/">Lilikoi</a><br>
+                                    </p>
+                                </td>
+                                <td valign="top">
+                                    <p>
+                                    Logo by:<br>
+                                    <a href="http://www.soybeandesigns.com/">Marie McLeod</a>
+                                    <br>
+                                    <br>
+                                    Website by:<br>
+                                    <a href="http://bvanderveen/">Benjamin van der Veen</a><br>
+                                    <a href="http://haileywalls.com/">Hailey Walls</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
