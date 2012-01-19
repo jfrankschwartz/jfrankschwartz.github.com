@@ -83,7 +83,8 @@ a img {
 	text-align:right;
 	position:absolute;
 	left: -250px;
-    top: -16px;
+    /*top: -16px;*/
+    top: 0px;
 }
 .content {
 	width: 500px;
@@ -120,7 +121,7 @@ a img {
 {
     padding: 1px;
     border: 1px solid #666;
-    margin: 5px;
+    margin: 5px 5px;
     
 }
 .footer
