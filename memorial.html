@@ -31,16 +31,46 @@
           })();
 
         </script>
+        <style>
+        .photo {
+            height:350px; 
+            margin: 10px auto
+        }
+        .masthead {
+            margin: 40px auto;
+        }
+        .range {
+            margin: -70px auto 70px
+        }
+
+        .notice {
+            position: absolute;
+            z-index: 100;
+            color: #fff;
+            width: 300px;
+            height: 200px;
+            top: 10px;
+            left: 10px;
+            background: #000;
+        }
+        .main a, .main a:visited, .main a:link {
+            color: #000;
+            display: block;
+        }
+        </style>
     </head>
     <body>
         <div class="container">
-            <img src="/photos/f.jpg" style="height:350px; margin: 10px auto"/>
 
-            <h1 class="masthead" style="margin: 40px auto;">J. Frank Schwartz</h1>
-            <h2 style="margin: -70px auto 70px">1981 &ndash; 2013</h2>
+            <img src="/photos/f.jpg" class="photo" />
+
+            <h1 class="masthead" style="">J. Frank Schwartz</h1>
+            <h2 class="range">1981 &ndash; 2013</h2>
 
             <div class="main">
-                Frank's family and friends thank you for your support.
+                <p>Frank's family and friends thank you for your support.</p>
+
+                <p><a href="/index.html">You can view Frank's web site here.</a></p>
             </div>
         </div>
     </body>
